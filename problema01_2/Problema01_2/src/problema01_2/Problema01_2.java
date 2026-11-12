@@ -64,6 +64,8 @@ public class Problema01_2 {
                                     System.out.println("NINGUNA OPCION ES"
                                             + " CORRECTA LA OPERACION"
                                             + " NO SE EJECUTARA");
+                                    num1 = 0;
+                                    num2 = 0;
                                 }
                             }
                         }

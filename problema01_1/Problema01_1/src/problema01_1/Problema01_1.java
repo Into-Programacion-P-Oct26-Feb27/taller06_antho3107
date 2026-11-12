@@ -69,6 +69,8 @@ public class Problema01_1 {
                 default:
                     System.out.println("ninguna de las opciones anteriores es "
                             + "correcta");
+                    num1 = 0;
+                    num2 = 0;
                     break;
         }
 
