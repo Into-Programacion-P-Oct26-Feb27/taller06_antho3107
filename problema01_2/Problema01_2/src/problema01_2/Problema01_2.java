@@ -60,6 +60,10 @@ public class Problema01_2 {
                             } else {
                                 if (opcion==6){
                                     resultado = Math.pow(num1, num2);
+                                }else{
+                                    System.out.println("NINGUNA OPCION ES"
+                                            + " CORRECTA LA OPERACION"
+                                            + " NO SE EJECUTARA");
                                 }
                             }
                         }
