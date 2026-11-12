@@ -42,7 +42,7 @@ public class Problema02 {
                 + "4 Bus urbano");
         opcion = entrada.nextInt();
         
-        tipoAuto = null;
+        tipoAuto = "Ninguno";
         recargo = 0;
         porcentaje = 0;
         valor = 0;
