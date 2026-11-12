@@ -42,27 +42,34 @@ public class Problema01_1 {
         
         if (num1 > num2){
             switch (opcion) {
-                case 1 ->
+                case 1:
                     resultado = num1 + num2;
+                    break;
 
-                case 2 ->
+                case 2:
                     resultado = num1 - num2;
+                    break;
 
-                case 3 ->
+                case 3:
                     resultado = num1 * num2;
+                    break;
 
-                case 4 ->
+                case 4: 
                     resultado = num1 / num2;
+                    break;
 
-                case 5 ->
+                case 5:
                     resultado = num1 % num2;
+                    break;
 
-                case 6 ->
+                case 6:
                     resultado = Math.pow(num1, num2);
+                    break;
 
-                default ->
+                default:
                     System.out.println("ninguna de las opciones anteriores es "
                             + "correcta");
+                    break;
         }
 
         System.out.printf("OPERACIONES ARITMÉTICAS\n\n"
